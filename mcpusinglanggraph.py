@@ -61,12 +61,6 @@ def call_model(state: MessagesState):
     else:
         return {"messages":["END"]}
 
-async def my_node(state: MessagesState):
-    print('Tool Node ==============>',state["messages"][-1].content)
-    result = await ToolNode(tools).arun(state["messages"][-1].content)
-    # Update the graph state
-    return {"result": result}
-
 async def main():
     builder = StateGraph(MessagesState)
     builder.add_node("call_model", call_model)
