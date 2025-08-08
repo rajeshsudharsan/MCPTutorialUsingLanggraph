@@ -10,6 +10,9 @@ LLM Will use these tools to act on the task given by user.
 > Tool: edit_calendar_event - Edit a calendar event      
 > Tool: delete_calendar_event - Delete a calendar event  
 
+Prerequisites & Setup :
+Follow tthis link : https://mcpservers.org/servers/am2rican5/mcp-google-calendar
+
 How to run:
 
 pip install -r requirements.txt
