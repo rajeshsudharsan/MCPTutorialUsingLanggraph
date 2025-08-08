@@ -1,4 +1,4 @@
-What it does:**
+ **What it does:**
 
 MCP client acts as a bridge between an AI application and Google Calendar MCP servers and make the below tools available to the LLM (model - o4-mini-2025-04-16). LLM Will use these tools to act on the task given by user.
 
