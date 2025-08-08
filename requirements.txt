@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-openai
+langgraph
+langchain_mcp_adapters
