@@ -15,7 +15,7 @@ Follow tthis link : https://mcpservers.org/servers/am2rican5/mcp-google-calendar
 
 How to run:
 
-pip install -r requirements.txt
+pip install -r requirements.txt <br>
 python mcpusinglanggraph.py
 
 Output: Google calendar event will get created 
