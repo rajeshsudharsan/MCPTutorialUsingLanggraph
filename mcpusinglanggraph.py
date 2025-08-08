@@ -27,7 +27,7 @@ client = MultiServerMCPClient(
     {
         "google_calendar_server": {
             "command": "npx",
-            "args": ["-y","mcp-google-calendar"], # Replace with your server path
+            "args": ["-y","mcp-google-calendar"],
             "env": {'CREDENTIALS_PATH':SECRET_PATH},
             "transport":"stdio"
         }
